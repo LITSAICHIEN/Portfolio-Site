@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhc2UvbGliL2ZhL2ZhLWJyYW5kcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UscUNBQW9DO0VBQ3BDLG1CQUFrQjtFQUNsQixvQkFBbUI7RUFDbkIsMENBQThDO0VBQzlDLG9UQUltRSxFQUFBOztBQUdyRTtFQUNFLHFDQUFvQyxFQUNyQyIsImZpbGUiOiJiYXNlL2xpYi9mYS9mYS1icmFuZHMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCAndmFyaWFibGVzJztcblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnRm9udCBBd2Vzb21lIDUgQnJhbmRzJztcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBzcmM6IHVybCgnI3skZmEtZm9udC1wYXRofS9mYS1icmFuZHMtNDAwLmVvdCcpO1xuICBzcmM6IHVybCgnI3skZmEtZm9udC1wYXRofS9mYS1icmFuZHMtNDAwLmVvdD8jaWVmaXgnKSBmb3JtYXQoJ2VtYmVkZGVkLW9wZW50eXBlJyksXG4gIHVybCgnI3skZmEtZm9udC1wYXRofS9mYS1icmFuZHMtNDAwLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpLFxuICB1cmwoJyN7JGZhLWZvbnQtcGF0aH0vZmEtYnJhbmRzLTQwMC53b2ZmJykgZm9ybWF0KCd3b2ZmJyksXG4gIHVybCgnI3skZmEtZm9udC1wYXRofS9mYS1icmFuZHMtNDAwLnR0ZicpIGZvcm1hdCgndHJ1ZXR5cGUnKSxcbiAgdXJsKCcjeyRmYS1mb250LXBhdGh9L2ZhLWJyYW5kcy00MDAuc3ZnI2ZvbnRhd2Vzb21lJykgZm9ybWF0KCdzdmcnKTtcbn1cblxuLmZhYiB7XG4gIGZvbnQtZmFtaWx5OiAnRm9udCBBd2Vzb21lIDUgQnJhbmRzJztcbn1cbiJdfQ== */

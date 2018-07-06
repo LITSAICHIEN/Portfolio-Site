@@ -1,0 +1,10 @@
+.submenu {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  &__item {
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+}

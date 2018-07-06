@@ -1,0 +1,16 @@
+﻿.Header {
+  height: 98px;
+  &__head {
+    position: relative;
+    font-size: 20px;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  &__sub {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+}
