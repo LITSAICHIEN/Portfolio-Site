@@ -1,10 +1,15 @@
 .submenu {
   padding: 0;
-  display: flex;
-  justify-content: space-around;
+  li {
+    float: left;
+    margin: 0 5px;
+    padding: 3px 12px;
+    border: 1px solid $color-main-text;
+    border-radius: 5px;
+    font-size: 12px;
+  }
   &__item {
     display: block;
-    padding: 10px 15px;
     text-transform: uppercase;
   }
 }

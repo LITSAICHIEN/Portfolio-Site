@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio - LI TSAICHIEN</title>
     <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./dist/css/slick.css">
+    <link rel="stylesheet" href="./dist/css/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
   <header class="Header l-column">
@@ -20,5 +23,48 @@
     </div>
   </header>
 
+  <nav class="Nav l-column">
+    <ul class="Menu">
+      <li><a class="Menu__item" href="#">Works</a></li>
+      <li><a class="Menu__item" href="#">About</a></li>
+      <li><a class="Menu__item" href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="slider" class="l-column">
+    <div id="slides">
+			<div class="slider0"><a href="#1"><img src="src/images/bannerslide1.jpg" alt="slide1"></a></div>
+			<div class="slider1"><a href="#2"><img src="src/images/bannerslide2.jpg" alt="slide2"></a></div>
+			<div class="slider2"><a href="#3"><img src="src/images/bannerslide3.jpg" alt="slide3"></a></div>
+    </div>
+    <div id="thumbnail">
+      <div class="slider0">●</div>
+      <div class="slider1">●</div>
+      <div class="slider2">●</div>
+    </div>
+	</div>
+
+  <div id="contents">
+    <div id="main">
+      <div class="Section l-column">
+        <div class="Works__head">
+          <h2 class="sectionLabel">Works</h2>
+        </div>
+
+
+          <div class="center">
+            <div><a href="#"><img src="src/images/serakubank.jpg" alt=""></a></div>
+            <div><a href="#"><img src="src/images/myjapanesename.png" alt=""></a></div>
+            <div><a href="#"><img src="src/images/javascript.jpg" alt=""></a></div>
+          </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+<script src="src/js/slick.min.js"></script>
+<script src="src/js/script.js"></script>
 </body>
 </html>
