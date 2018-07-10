@@ -74,35 +74,11 @@ $(document).ready(function(){
     });
 });
 
-//ここからスライド
+//ここからはスムーススクロール
 $(document).ready(function(){
-  $('.center').slick({
-    arrows: true,
-    prevArrow: '<img src="src/images/prev.jpg" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="src/images/next.jpg" class="slide-arrow next-arrow">',
-    centerMode: true,
-    infinite: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-  ]
+  $('#top').click(function() {
+    $('html, body').animate({
+      'scrollTop':0
+    }, 800);
   });
 });

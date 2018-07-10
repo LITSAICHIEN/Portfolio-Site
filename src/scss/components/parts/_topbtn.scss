@@ -1,0 +1,9 @@
+#top {
+  position: absolute;
+  margin-top: 2%;
+  right: 0%;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
