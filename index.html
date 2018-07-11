@@ -23,9 +23,9 @@
 
   <nav class="Nav l-column">
     <ul class="Menu">
-      <li><a class="Menu__item" href="#">Works</a></li>
-      <li><a class="Menu__item" href="#">About</a></li>
-      <li><a class="Menu__item" href="#">Contact</a></li>
+      <li><a class="Menu__item" href="#sec1">Works</a></li>
+      <li><a class="Menu__item" href="#sec2">About</a></li>
+      <li><a class="Menu__item" href="#sec3">Contact</a></li>
     </ul>
   </nav>
 
@@ -46,7 +46,7 @@
     <div id="main">
 
       <div class="Section l-column">
-        <div class="Works__head">
+        <div class="Works__head" id="sec1">
           <h2 class="sectionLabel">Works</h2>
         </div>
         <div class="Works">
@@ -59,24 +59,29 @@
       </div>
 
       <div class="Section l-column">
-        <div class="About__head">
+        <div class="About__head" id="sec2">
           <h2 class="sectionLabel">About</h2>
         </div>
 
-        <div><img src="src/images/photo.jpg"></div>
-        <div>
-          <p>株式会社セラク<br>デジタルサイエンス事業部</p>
-          <p>李 采蒨(Li Tsaichien)</p>
-          <p>台湾出身<br>泳ぐ、山登りと映画をみるのが趣味<br>プロジェクトマネージャーを目指しています</p>
+        <div class="About">
+          <ul class="About__menu">
+            <li><img src="src/images/photo.jpg"></li>
+            <li>
+              <p>株式会社セラク<br>デジタルサイエンス事業部</p>
+              <p class="name">李 采蒨(Li Tsaichien)</p>
+              <p>台湾出身<br>泳ぐ、山登り、映画をみるのが趣味<br>プロジェクトマネージャーを目指しています</p>
+            </li>
+          </ul>
+          <div><a href="#" class="button">MORE</a></div>
         </div>
-        <div><a href="#" class="button">MORE</a></div>
-
       </div>
 
     </div>
   </div>
   <div id="top"><img src="src/images/topbtn.jpg" alt="TOPへ戻る"></div>
-<script src="./dist/js/slick.min.js"></script>
+  <footer>
+    <p class="copyright"><small>Copyright&copy;2018 Tsaichien Li.All Rights Reserved.</small></p>
+  </footer>
 <script src="./dist/js/main.min.js"></script>
 </body>
 </html>
