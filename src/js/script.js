@@ -75,7 +75,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $('a[href^=#]').click(function(){
+  $('a[href="#"]').click(function(){
     var speed = 800;
     var href=$(this).attr("href");
     var target=$(href == "#" || href == "" ? 'html' : href);
@@ -86,9 +86,32 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   //ここからはスムーススクロール
+  $('#top').hide();
+  $(window).scroll(function() {
+    if($(this).scrollTop() > 300){
+      $('#top').fadeIn();
+    } else {
+      $('#top').fadeOut();
+    }
+  });
   $('#top').click(function() {
     $('html, body').animate({
       'scrollTop':0
     }, 800);
+  });
+});
+
+$(document).ready(function(){
+  $('.windowShow1').click(function() {
+    $('#windowmodal1').fadeIn();
+  });
+  $('.windowShow2').click(function() {
+    $('#windowmodal2').fadeIn();
+  });
+  $('.windowShow3').click(function() {
+    $('#windowmodal3').fadeIn();
+  });
+  $('.close-modal').click(function() {
+    $('#windowmodal1, #windowmodal2, #windowmodal3').fadeOut();
   });
 });

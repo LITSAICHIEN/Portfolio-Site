@@ -1,0 +1,16 @@
+%btn {
+  position: fixed;
+  margin-top: 2%;
+  right: 0%;
+  bottom: 10%;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+#top {
+  @extend %btn;
+}
+#home {
+  @extend %btn;
+}

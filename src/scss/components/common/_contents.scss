@@ -1,22 +1,85 @@
-.Works__menu {
+.Works {
   @include clearfix;
-  padding: 0;
+  display: flex;
   text-align: center;
   margin-top: 8%;
   margin-bottom: 16%;
-  li {
-    width: 33.3333%;
-    float: left;
+  &__menu {
+    margin: 1% 5% 0;
     & img {
       border-radius: 50%;
-      width: 75%;
+      width: 100%;
       height: auto;
       border: 2px solid rgba(71, 71, 71, 0.8);
       display: inline-block;
-      filter: blur(1px);
+      cursor: pointer;
       &:hover {
-        filter: none;
+        opacity: 0.8;
       }
+    }
+  }
+  .close-modal img {
+    position: absolute;
+    width: 30px;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .box-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: none;
+  }
+  .modal {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: #fff;
+    padding: 60px 10px;
+    border-radius: 10px;
+    width: 550px;
+    text-align: center;
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    h3 {
+      text-decoration: underline solid $color-main-text;
+    }
+    p {
+      text-align: left;
+      padding: 0 50px;
+    }
+    %sitebutton {
+      position: absolute;
+      padding: 3px 30px;
+      right: 210px;
+      background-color: $color-link;
+      font-size: 14px;
+      color: #fff;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    .sitebutton1 {
+      @extend %sitebutton;
+    }
+    .sitebutton2 {
+      @extend %sitebutton;
+      right: 280px;
+    }
+    .sitebutton3 {
+      @extend %sitebutton;
+      right: 150px;
+      padding: 3px 40px;
     }
   }
   %buttonBase {
